@@ -9,6 +9,7 @@
 
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="css.css"/>
 
     <!-- Bootstrap + Creative Studio main styles -->
 	<link rel="stylesheet" href="assets/css/creative-studio.css">
@@ -67,25 +68,42 @@
     <!-- Page Header -->
     <header class="header">
         <div class="overlay">
-            <h6 class="subtitle">Small Team With Big Ideas</h6>
-            <h1 class="title">Contact Us</h1>
+            <h6 class="subtitle">Rejoignez Notre Equipe Innovante</h6>
             <div class="buttons text-center">
-                <a href="#contact" class="btn btn-outline-light rounded w-lg btn-lg my-1">Contact Us</a>
+                <a href="#InscriptionsTitle" class="btn btn-outline-light rounded w-lg btn-lg my-1">Inscrivez Vous</a>
+
             </div>              
         </div>      
     </header>
 <!-- Inscription Section -->
 <section>
+    <div class="InscriptionsTitle" id="InscriptionsTitle">
+        <h1 class="subtitle">Rejoignez Notre Equipe Innovante</h1>
+    </div>
 
     <form>
-        <pre>
-            <input type="text" id="exampleInputNomInscription" placeholder="Nom Complet" required autofocus/>
-            <input type="number" id ="exampleInputNumInscription" placeholder="Eumero de telephone" required />
-            <input type="email" id="exampleInputEmailInscription" placeholder="Entrer email" required />
-            <input type="number"  id ="exampleInputPasswordInscription" placeholder="Password" required minlength="7" maxlength="12"/>
-            <input type="reset" value="reset"/>
-            <input type="submit" value="enregistrer"/>
-        </pre>
+        <div class="inscri">
+            <div>
+                <input type="text" id="exampleInputNomInscription" placeholder="Nom Complet" required autofocus/>
+            </div>
+            <div>
+                <input type="text" id ="exampleInputNumInscription" placeholder="Numero de telephone" required />
+            </div>
+            <div>
+                <input type="email" id="exampleInputEmailInscription" placeholder="Entrer email" required />
+            </div>
+            <div>
+                <input type="text"  id ="exampleInputPasswordInscription" placeholder="Password" required minlength="7" maxlength="12"/>
+            </div>
+            <div class="exampleInputCHeckBoxInscription">
+                <input type="checkbox"  required />
+                <label>J'accepte les termes et conditions</label>
+            </div>
+            <div class="sub-rest">
+                <input type="submit" value="Enregistrer" id ="exampleInputSubInscription"/>
+                <input type="reset" value="Reset"id ="exampleInputRestInscription"/>
+            </div>
+        </div>
     </form>
 </section>
 <!-- End Inscription Section -->
