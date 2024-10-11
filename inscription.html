@@ -15,7 +15,7 @@
 	<link rel="stylesheet" href="assets/css/creative-studio.css">
 
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home" background-color="black">
     
     <!-- Page Navigation -->
     <nav class="navbar custom-navbar navbar-expand-lg navbar-dark" data-spy="affix" data-offset-top="20">
@@ -33,7 +33,7 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="index.html#about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="services.html">Service</a>
@@ -42,10 +42,10 @@
                         <a class="nav-link" href="portefolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#team">Team</a>
+                        <a class="nav-link" href="index.html#team">Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#testimonial">Testimonial</a>
+                        <a class="nav-link" href="index.html#testimonial">Testimonial</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="blog.html">Blog</a>
@@ -54,7 +54,7 @@
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="inscription.html">inscription</a>
+                        <a class="nav-link active" href="inscription.html">inscription</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link btn btn-primary btn-sm ml-lg-3" href="components.html">Components</a>
@@ -66,45 +66,45 @@
     <!-- End Of Page Navigation -->
 
     <!-- Page Header -->
-    <header class="header">
-        <div class="overlay">
-            <h6 class="subtitle">Rejoignez Notre Equipe Innovante</h6>
+    <header class="header inscription-img">
+        <div class="overlay ">
+            <h1 class="subtitle"><strong>Join Our Innovative Team</strong> </h1>
             <div class="buttons text-center">
-                <a href="#InscriptionsTitle" class="btn btn-outline-light rounded w-lg btn-lg my-1">Inscrivez Vous</a>
+                <a href="#InscriptionsTitle" class="btn btn-outline-light rounded w-lg btn-lg my-1">register</a>
 
             </div>              
         </div>      
     </header>
 <!-- Inscription Section -->
-<section>
-    <div class="InscriptionsTitle" id="InscriptionsTitle">
-        <h1 class="subtitle">Rejoignez Notre Equipe Innovante</h1>
-    </div>
-
-    <form>
-        <div class="inscri">
-            <div>
-                <input type="text" id="exampleInputNomInscription" placeholder="Nom Complet" required autofocus/>
+<section >
+        <div>
+            <div class="InscriptionsTitle" id="InscriptionsTitle">
+                <h1 class="subtitle">Join Our Innovative Team</h1>
             </div>
-            <div>
-                <input type="text" id ="exampleInputNumInscription" placeholder="Numero de telephone" required />
-            </div>
-            <div>
-                <input type="email" id="exampleInputEmailInscription" placeholder="Entrer email" required />
-            </div>
-            <div>
-                <input type="text"  id ="exampleInputPasswordInscription" placeholder="Password" required minlength="7" maxlength="12"/>
-            </div>
-            <div class="exampleInputCHeckBoxInscription">
-                <input type="checkbox"  required />
-                <label>J'accepte les termes et conditions</label>
-            </div>
-            <div class="sub-rest">
-                <input type="submit" value="Enregistrer" id ="exampleInputSubInscription"/>
-                <input type="reset" value="Reset"id ="exampleInputRestInscription"/>
-            </div>
-        </div>
-    </form>
+        
+            <form>
+                <div class="inscri">
+                    <div>
+                        <input type="text" id="exampleInputNomInscription" placeholder="Full name" required autofocus/>
+                    </div>
+                    <div>
+                        <input type="text" id ="exampleInputNumInscription" placeholder="Phone number" required />
+                    </div>
+                    <div>
+                        <input type="email" id="exampleInputEmailInscription" placeholder="Enter email" required />
+                    </div>
+                    <div>
+                        <input type="text"  id ="exampleInputPasswordInscription" placeholder="Password" required minlength="7" maxlength="12"/>
+                    </div>
+                    <div class="exampleInputCHeckBoxInscription">
+                        <input type="checkbox"  required />
+                        <label>I accept the <strong>terms and conditions</strong></label>
+                    </div>
+                    <div class="sub-rest">
+                        <input type="submit" value="register" id ="exampleInputSubInscription"/>
+                    </div>
+                </div>
+            </form>  
 </section>
 <!-- End Inscription Section -->
     </section>

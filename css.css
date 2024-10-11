@@ -1,3 +1,8 @@
+.nav-item:hover{
+    background-color: rgb(74, 169, 186) !important;
+    border-radius: 5px;
+}
+
 .InscriptionsTitle{
     background-color: rgb(108, 175, 214);
     padding: 10px;
@@ -45,10 +50,10 @@ display : block;
 .exampleInputCHeckBoxInscription{
     margin: 10px;
     padding: 0 20px;
-    width:50%;
+    width:100%;
 }
 #exampleInputSubInscription{
-    background-color: green;
+    background-color: rgb(150, 210, 228);
     margin: 10px;
     padding: 10px;
     width:90%;
@@ -57,14 +62,25 @@ display : block;
     display : block;
 }
 
-#exampleInputRestInscription{
-    margin: 10px;
-    padding: 10px;
-    width:auto;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: red;
-    display : block;
 
+
+.contactimg{
+    background-image: url('./assets/imgs/karsten-winegeart-ZhZziGTRhPg-unsplash.jpg') !important;
 }
+.inscription-img{
+    background-image: url('./assets/imgs/img-ins.jpg')!important;
+}
+.blog-img{
+    background-image: url('./assets/imgs/marek-piwnicki-7KX8I2_wgyY-unsplash.jpg')!important;
+}
+.card:hover {
+    transform: scale(1.2);
+    z-index: 2;
+    background-color: #30b9d8;
+    color: rgb(7, 7, 7);
+    
 
+  }
+  .card{
+    transition: all .5s;
+  }
